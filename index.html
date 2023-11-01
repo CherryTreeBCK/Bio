@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+
+
+
+  
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+
+  <title>CodePen - particle js</title>
+
+    <link rel="canonical" href="https://codepen.io/SudipTech/pen/GLvOOZ">
+  
+  
+  
+  
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+section {
+  font-size: 3rem;
+  position: relative;
+  height: 100%;
+}
+section h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section:nth-child(odd) {
+  color: white;
+  background-color: #262626;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+
+  <section id="particles-js">
+		<h1>Home</h1>
+    </section>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js'></script>
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+      <script id="rendered-js" >
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 290,
+      "density": {
+        "enable": true,
+        "value_area": 800 } },
+
+
+    "color": {
+      "value": "#ffffff" },
+
+    "shape": {
+      "type": "triangle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000" },
+
+      "polygon": {
+        "nb_sides": 10 },
+
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100 } },
+
+
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false } },
+
+
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false } },
+
+
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1 },
+
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": true,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200 } } },
+
+
+
+  "interactivity": {
+    "detect_on": "window",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse" },
+
+      "onclick": {
+        "enable": true,
+        "mode": "push" },
+
+      "resize": true },
+
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1 } },
+
+
+      "bubble": {
+        "distance": 400,
+        "size": 100,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3 },
+
+      "repulse": {
+        "distance": 100,
+        "duration": 0.4 },
+
+      "push": {
+        "particles_nb": 4 },
+
+      "remove": {
+        "particles_nb": 2 } } },
+
+
+
+  "retina_detect": true });
+//# sourceURL=pen.js
+    </script>
+
+  
+</body>
+
+</html>
